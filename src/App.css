@@ -1,0 +1,168 @@
+.App {
+  text-align: center;
+}8ctionsocial a:hover {
+  width: 400px;
+  height: 400px;
+}
+.socialnetworks{
+	position: fixed;
+    right: 0;
+    width: 30%;
+    height: 67px;
+
+}
+.actionsocial{
+	list-style: none; 
+	height: 60px;
+	padding: 17px;
+}
+.actionsocial li {
+	list-style: none; 
+	height: 60px;
+	cursor:pointer; cursor: hand
+   
+}
+.actionsocial #fbk {
+ 	 background-image: url('images/02_facebook.png');
+ 	 height: 25px;
+     width: 23px;
+     display: inline-block;
+     
+}
+.actionsocial #gp {
+ 	 background-image: url('images/14_google+.png');
+ 	 height: 25px;
+     width: 23px;
+     display: inline-block;
+}
+.actionsocial #tw {
+ 	 background-image: url('images/01_twitter.png');
+ 	 height: 25px;
+     width: 23px;
+     display: inline-block;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+	top: 8px;
+    position: fixed;
+    left: 0;
+    z-index: 1000;
+}
+.slogan{
+    color:#fff;
+    position: fixed;
+    left: 87px;
+    top: 0px;
+    font-size: 21px;
+}
+
+.App-header {
+    background-color:#000;
+    position: fixed;
+    height: 67px;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.25);
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.gridarticles{
+    width: 100%;
+    left: 0;
+    position: relative;
+    height: 800px;
+    top: 75px;
+}
+
+.slidebar{
+	width: 49%;
+    z-index: 11;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.25);
+	height: 144px;
+	float:left;
+}
+
+.cube{
+	width: 49%;
+    z-index: 11;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.25);
+        background-size: cover;
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+    line-height: 90px;
+    font-size: larger;
+    font-family: monospace;
+}
+
+.cube:hover {
+  -webkit-transform:scale(1.01);
+  -moz-transform:scale(1.01);
+  -ms-transform:scale(1.01);
+  -o-transform:scale(1.01);
+  transform:scale(1.01);
+
+}
+
+#cub1{
+		height: 288px;
+ 	    right: 0;
+    	position: absolute;
+background-image: url('images/file000349823764.jpg');
+}
+
+#cub2{
+	height: 288px;
+    top: 155px;
+    position: relative;
+background-image: url(images/file0001322180487.jpg);
+}
+
+
+#cub3{
+    height: 288px;
+    position: relative;
+    left: 51%;
+    top: 10px;
+       background-image: url(images/file1901272152852.jpg);
+
+}
+
+
+#cub4{
+	height: 136px;
+    position: relative;
+    top: -126px;
+        background-image: url(images/file1901272152852.jpg);
+}
+
+
+#cub5{
+	height: 144px;
+    position: relative;
+    top: -116px;
+       background-image: url(images/file000349823764.jpg);   
+}
+
+#cub6{
+	height: 144px;
+    position: relative;
+    left: 51%;
+    top: -260px;
+       background-image: url(images/file000349823764.jpg);
+}
+
+.gridarticles .cube{
+	width: 49%;
+    z-index: 11;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.25);
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
